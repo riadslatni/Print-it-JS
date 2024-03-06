@@ -30,6 +30,7 @@ const dots = document.querySelector(".dots")
 
 /* right*/
 arrowRight.addEventListener("click", () => {
+	console.log(addEventListener)
 	const dot = document.querySelectorAll(".dots .dot");
 	dot[index].classList.remove("dot_selected");
 	index++;
@@ -43,6 +44,7 @@ arrowRight.addEventListener("click", () => {
 
 /* left*/
 arrowLeft.addEventListener("click", () => {
+	console.log(addEventListener)
 	const dot = document.querySelectorAll(".dots .dot")
 	dot[index].classList.remove("dot_selected");
 	index--;
